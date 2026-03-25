@@ -60,4 +60,4 @@
 
 <h3 align="center">🔥   My Stats :</h3>
 
-###
+![pacman](https://raw.githubusercontent.com/gloomy5on/gloomy5on/main/github-metrics-pacman.svg)
