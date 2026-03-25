@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Create profile folder
+        run: mkdir -p profile
+
       - name: Generate stats card
         uses: Pranesh-2005/github-readme-stats-fast-action@v1.2
         with:
@@ -38,15 +41,6 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&theme=radical
           path: profile/top-langs.svg
           token: ${{ secrets.METRICS_TOKEN }}
-
-      - name: Generate Wakatime card
-        uses: Pranesh-2005/github-readme-stats-fast-action@v1.2
-        with:
-          card: wakatime
-          options: username=praneshjs
-          path: profile/wakatime.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-
 
       - name: Commit cards
         run: |
