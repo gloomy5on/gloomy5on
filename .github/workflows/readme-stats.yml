@@ -13,7 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Create profile folder
         run: mkdir -p profile
@@ -24,7 +27,7 @@ jobs:
           card: stats
           options: username=gloomy5on&show_icons=true&theme=tokyonight
           path: profile/stats.svg
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Generate streak card
         uses: Pranesh-2005/github-readme-stats-fast-action@v1.2
@@ -32,7 +35,7 @@ jobs:
           card: streak
           options: username=gloomy5on&show_icons=true&theme=tokyonight
           path: profile/streak.svg
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Generate Top Languages card
         uses: Pranesh-2005/github-readme-stats-fast-action@v1.2
@@ -40,13 +43,13 @@ jobs:
           card: top-langs
           options: username=gloomy5on&layout=compact&theme=tokyonight
           path: profile/top-langs.svg
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
 
-      - name: Commit cards
+      - name: Commit and push cards
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git add profile/*.svg
-          git commit -m "Update README cards (Tokyo Night Theme)" || echo "No changes to commit"
-          git push
+          git commit -m "Auto update README cards" || echo "No changes to commit"
+          git push origin main
