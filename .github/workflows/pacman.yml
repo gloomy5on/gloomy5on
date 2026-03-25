@@ -16,9 +16,5 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          
-      
           config_animations: yes
-
-        
           plugin_followup: yes
