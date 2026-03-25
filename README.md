@@ -60,4 +60,4 @@
 
 <h3 align="center">🔥   My Stats :</h3>
 
-![Pacman](https://raw.githubusercontent.com/gloomy5on/gloomy5on/main/github-metrics-isocalendar.svg)
+![Pacman](https://raw.githubusercontent.com/gloomy5on/gloomy5on/main/github-metrics.svg)
