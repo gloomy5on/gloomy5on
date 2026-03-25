@@ -59,11 +59,6 @@
 ###
 
 <h3 align="center">🔥   My Stats :</h3>
-
-![Stats](https://raw.githubusercontent.com/gloomy5on/gloomy5on/main/profile/stats.svg)
-![Top Langs](https://raw.githubusercontent.com/gloomy5on/gloomy5on/main/profile/top-langs.svg)
-![Streak](https://raw.githubusercontent.com/gloomy5on/gloomy5on/main/profile/streak.svg)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gloomy5on/gloomy5on/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gloomy5on/gloomy5on/output/pacman-contribution-graph.svg">
