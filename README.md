@@ -2,7 +2,6 @@
   <img height="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY21jZ2J1MW16MXI1NHU5eTZkbnQ0OW9ibXZmODRiM21lZHBiZm9wZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/6Mbgorc9nW6gfoPfWN/giphy.gif"  />
 </div>
 
-###
 
 <div align="center">
   <a href="https://www.linkedin.com/in/bingky-achmad-f-r-b2753523b" style="text-decoration: none; border: none;">
