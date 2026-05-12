@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="200" src="[https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExY21jZ2J1MW16MXI1NHU5eTZkbnQ0OW9ibXZmODRiM21lZHBiZm9wZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/6Mbgorc9nW6gfoPfWN/giphy.gif](https://tenor.com/id/view/cat-scuba-dance-gif-5034219186050115128)"  />
+  <img src="https://media.giphy.com/media/6Mbgorc9nW6gfoPfWN/giphy.gif" height="200" alt="Scuba Cat" />
 </div>
 
 
