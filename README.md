@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/6Mbgorc9nW6gfoPfWN/giphy.gif" height="200" alt="Scuba Cat" />
+  <img src= "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGE2a2FpcDRuNzhtNTA0Zjh3dmh4enp1dXlzMHRvaTMwb283bmwwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qDOI1FqYEyTxkW0MEI/giphy.gif"/>
 </div>
 
 
